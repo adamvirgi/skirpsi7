@@ -14,7 +14,7 @@ def main():
     with st.form('user_input'):
         age = st.number_input('Age (Month)', min_value=0, max_value=72)
         gender = st.radio('Gender', ['Female', 'Male'])
-        body_height = st.number_input('Body Height (cm)', min_value=0.0, max_value=1.0)
+        body_height = st.number_input('Body Height (cm)', min_value=0.0, max_value=100.0)
         body_weight = st.number_input('Body Weight (kg)', min_value=0.0, max_value=50.0)
 
         # Submit button
